@@ -11,6 +11,7 @@ assessmentButton.onclick = () => {
         return;
     }
 
+    
     userNameInput.onkeydown = event => {
         if (event.key === 'Enter') {
             assessmentButton.onclick();
